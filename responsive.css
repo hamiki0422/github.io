@@ -1,0 +1,42 @@
+@media screen and (min-width:769px){
+    /* PC 769px以上 */
+  html{
+    font-size: 16PX;
+  }
+  /* telのリンクOFF */
+  /* a[href*="tel:"] {
+    pointer-events: none;
+    text-decoration: none;
+  } */
+/* スマホ用お問い合わせ */
+  .for-sp{
+    display:none;
+  }
+
+}
+
+
+@media screen and (max-width:768px){
+  /* タブレット 768px以下 */
+  html{
+    font-size: 2vw;
+  }
+/* ヘッダーのお問い合わせ */
+  .header_navgroup{
+    display: none;
+  }
+
+}
+@media screen and  (max-width:480px){
+  /* スマートフォン 480px以下 */
+  html{
+    font-size: 3.4vw;
+  }
+
+  .header_navgroup{
+    display: none;
+  }
+  .main_box {
+    flex-direction: column;
+  }
+}
