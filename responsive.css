@@ -26,6 +26,7 @@
     display: none;
   }
 
+
 }
 @media screen and  (max-width:480px){
   /* スマートフォン 480px以下 */
@@ -39,4 +40,20 @@
   .main_box {
     flex-direction: column;
   }
+
+  /* pc改行の非表示 */
+  br.pc {
+    display: none;
+}
+/* スマホ改行の表示 */
+br.sp {
+  display: inline;
+}
+
+/* massageの表示 */
+.massage p {
+  font-size: 1rem;
+  line-height:2 ;
+}
+
 }
