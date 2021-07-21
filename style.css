@@ -165,7 +165,7 @@ main
     display:grid;
     place-items: center;
     height: 100vh;
-    background-image: url("images/kabegami.svg");
+    background-image: url("images/bg1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
