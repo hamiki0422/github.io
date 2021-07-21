@@ -80,7 +80,7 @@ a {
 /* ヘッダーのお問い合わせボタン */
   .header_btn{
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     background-color: #B1B597;
     border-radius:4px;
     padding:3px 15px;
@@ -156,7 +156,7 @@ a {
 
 
 /*--------------------------------------
-メイン
+main
 --------------------------------------*/
 
 .main-image {
@@ -171,7 +171,7 @@ a {
     background-repeat: no-repeat;
 }
 
- .content_main {
+ .content {
      /* background-color: rgb(223, 220, 220); */
     display: flex;
     justify-content: center;
@@ -179,19 +179,25 @@ a {
     flex-direction: column;
     width: 100%;
   }
+
+
+
+
   
-  .content_main > h1 {
+  .content > h1 {
     color: #f3a324;
     font-size: 1.4375rem;/* 23px */
     font-weight: bold;
     margin-bottom: 0;
   }
+
+
   .logo img {
     width: 100%;
     height: auto;
     padding:0.5rem ; /* 8px */
   }
-  .content_main > h2 {
+  .content > h2 {
     font-size: 1.5rem; /* 24px */
     color: #4F2A14;
     font-weight: normal;
@@ -215,6 +221,38 @@ a {
   }
 
 
+/*--------------------------------------
+massage
+--------------------------------------*/
+.massage {
+  padding-top: 4rem;
+  background-color:#fff;
+
+  /* background-image: url("images/bg2.png"); */
+
+}
+.title{
+  font-size: 2rem;
+  color: #4F2A14;
+}
+
+.sub_title {
+  margin-top: 0px;
+    color: #82806f;
+    font-family: "Yu Gothic", YuGothic, "Meiryo UI", Meiryo, メイリオ, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: 500;
+}
+.massage p {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #82806f;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+br.sp {
+  display: none;
+}
 /*--------------------------------------
 スマホ用フッターデザイン
 --------------------------------------*/
