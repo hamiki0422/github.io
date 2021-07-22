@@ -3,16 +3,24 @@
   html{
     font-size: 16PX;
   }
-  /* telのリンクOFF */
-  /* a[href*="tel:"] {
-    pointer-events: none;
-    text-decoration: none;
-  } */
-/* スマホ用お問い合わせ */
+
+/* スマホ用お問い合わせ非表示 */
   .for-sp{
     display:none;
   }
 
+/* 営業時間 */
+   .box {
+    display: none;
+  }
+
+}.sample{
+  position: absolute;
+  top: 70px;
+  left: 25%;
+}
+.sample img {
+  width: 80%;
 }
 
 
@@ -25,9 +33,20 @@
   .header_navgroup{
     display: none;
   }
-
-
 }
+
+
+
+/* mainのユーカリの表示サイズ */
+/* .sample{
+   position: absolute;
+   top: 60px;
+  left: 10%;
+}
+.sample img {
+  width: 75%;
+}  */
+
 @media screen and  (max-width:480px){
   /* スマートフォン 480px以下 */
   html{
@@ -50,10 +69,35 @@ br.sp {
   display: inline;
 }
 
-/* massageの表示 */
-.massage p {
+
+/* mainのユーカリの表示サイズ */
+.sample{
+  top: 60px;
+  left: 0;
+  padding-left: 1rem;
+}
+/* mainのユーカリの表示サイズ */
+.sample img{
+  width: 67%;
+
+}
+/* massageのbill画像表示 */
+.massage > img {
+  width: 100%;
+}
+/* テキストのスマホ表示 */
+p.text {
   font-size: 1rem;
   line-height:2 ;
+}
+
+/* menuのスマホ表示 */
+.menu > img {
+  width: 85%;
+}
+/* infomationの画像 */
+.infomation > img {
+  width: 40%;
 }
 
 }
