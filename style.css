@@ -299,7 +299,8 @@ menu
 }
 
 .menu > img {
-  width: 60%;
+  margin-top: 2rem;
+  width: 40%;
 }
 
 /*--------------------------------------
@@ -336,7 +337,7 @@ contact
   border: 1px solid #d5d8bf;
   border-radius: 4px;
   box-shadow: 2px 2px 4px #d5d8bf;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin: 1rem;
 
 }
@@ -360,16 +361,16 @@ span.sub_title {
   color: #82806f;
   font-size: 0.75rem;
 }
-
-.acsess {
-  padding: 1rem;
+.flex-item > img {
+  width: 100%;
 }
+
 /*--------------------------------------
 footer
 --------------------------------------*/
 footer {
   padding-top: 1.5rem;
-  background-color: #413E3E;
+  background-color: #4F2A14;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -386,9 +387,7 @@ footer > img {
   font-size: 0.75rem;
 }
 
-iframe {
-  width: 100%;
-}
+
 
 /*--------------------------------------
 スマホ用フッターデザイン
