@@ -33,6 +33,27 @@
   .header_navgroup{
     display: none;
   }
+
+/* menuの料金表 */
+.menu > img {
+  width: 85%;
+}
+
+
+  /* infomationの感染予防 */
+.infomation > img {
+   width: 40%;
+}
+
+  /* コンタクトの内容 */
+.contact_lists {
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  }
+  
+
+
 }
 
 
@@ -91,13 +112,13 @@ p.text {
   line-height:2 ;
 }
 
-/* menuのスマホ表示 */
+/* menuの料金表 */
 .menu > img {
-  width: 85%;
+  width: 95%;
 }
-/* infomationの画像 */
+
 .infomation > img {
-  width: 40%;
+  width: 80%;
 }
 
 }
