@@ -9,7 +9,7 @@ html {
 body {
   margin: 0px; /* ブラウザーの仕様で余白８pxあり*/
   padding: 0PX; /* 初期化*/
-  background: rgb(219, 216, 216);
+  background: rgb(255, 255, 255);
   /* width: 100%;
   height: 100%; */
 }
@@ -122,6 +122,7 @@ a {
  .apo {
   vertical-align: middle;
   line-height: 0.25rem;
+  margin-right: 20px;
 
 }
 
@@ -140,7 +141,7 @@ a {
 .reservation{
   background-color:#f3a324;
   box-shadow:0 3px #c5773b;
-  margin-left: 20px;
+
 }
 
 
@@ -324,28 +325,37 @@ contact
 }
 
 .contact_img > img {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 2rem;
 }
-/* .contact_lists {
+ .contact_lists {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
-} */
+  flex-direction: row;
+  margin: 0.25rem;
+  flex: 1;
+} 
 .flex-item {
-  flex: 1; /*アイテム均等幅*/
+  /* width: 50%; */
+  /* display: flex;
+  flex-direction: column; */
+   /*アイテム均等幅*/
   background-color: FFF;
   border: 1px solid #d5d8bf;
   border-radius: 4px;
   box-shadow: 2px 2px 4px #d5d8bf;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   margin: 1rem;
+  text-align: center;
+ 
 
 }
 span.sub_title {
   display: block;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+
   font-size: 0.875rem;
 
 }
@@ -354,7 +364,7 @@ span.sub_title {
   font-weight: nomal;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .flex-item > p{
